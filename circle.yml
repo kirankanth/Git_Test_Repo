@@ -5,3 +5,6 @@ dependencies:
 test:
  override:
   - echo "Test for circleci"
+general:
+ override:
+  - ls -l; pwd
