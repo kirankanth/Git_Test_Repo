@@ -1,3 +1,6 @@
+dependencies:
+ override:
+  - echo "test for dependencies"
 test:
  override:
   - echo "Test for circleci"
