@@ -6,4 +6,5 @@ test:
  override:
   - echo "Test for circleci"
 general:
-  - ls -l; pwd
+  - ls -l
+  - pwd
