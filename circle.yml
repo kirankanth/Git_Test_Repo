@@ -6,3 +6,6 @@ test:
  override:
   - echo "Test for circleci"
   - ls
+  - cp /home/ubuntu/Git_Test_Repo/target/Test.war $CIRCLE_ARTIFACTS
+  - cd $CIRCLE_ARTIFACTS 
+  - ls
