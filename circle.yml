@@ -1,6 +1,7 @@
 dependencies:
  override:
   - echo "test for dependencies"
+  - mvn clean package
 test:
  override:
   - echo "Test for circleci"
